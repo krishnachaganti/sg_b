@@ -9,9 +9,9 @@ if (awsCredentialId == null) {
 }
 
 // Sagemaker Project specific details
-def sagemakerProjectName = "kc-first-test"
-def sagemakerProjectId = "p-r1jlbrvng8cm"
-def sagemakerProjectArn = "arn:aws:sagemaker:us-east-1:231939715665:project/kc-first-test"
+def sagemakerProjectName = "kc-second-test"
+def sagemakerProjectId = "p-r1jlbrvng998"
+def sagemakerProjectArn = "arn:aws:sagemaker:us-east-1:231939715665:project/kc-second-test"
 def sagemakerPipelineExecutionRole = "arn:aws:iam::231939715665:role/service-role/AmazonSageMakerServiceCatalogProductsUseRole"
 def awsRegion = "us-east-1"
 def artifactBucket = "sagemaker-project-p-r1jlbrvng8cm"
